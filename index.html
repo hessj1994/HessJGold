@@ -3,159 +3,212 @@
 <!-- shift alt f align, cntrl ~ cmd, -->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./main.css">
-  <link rel="icon.gif" id="headerIcon" type="image/gif"> <!--...Why is it not animated? Needs to be importe from css somehow-->
-  <title>Gold Badge Portfolio Justin Hess</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon.gif" id="headerIcon" type="image/gif" href="assets/Cow.gif">
+    <title>Gold Badge Portfolio Justin Hess</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- <div id="easter-egg"><style>body{transform:rotate(180deg)}</style></div> -->
-<!-- what ya doin? aus -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">View My HTML/CSS Projects</a>
-            <a class="dropdown-item" href="#">View My CS#arp Projects</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here, games</a>
-          </div>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li> -->
-      </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
-    </div>
-  </nav>
-
-  <!-- <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Library</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Data</li>
-    </ol>
-  </nav> -->
-
-  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-    <strong>Test button to flip page or do something interesting</strong> Blah Blah Blah
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-
-  <div class="container text-vertical-center name">
-    <h1 id="title" style="font-size: 500%; letter-spacing: -2px;">Justin Hess</h1>
-    <h3 id="title" style="font-size: 200%;">SOFTWARE DEVELOPER</h3>
-  </div>
-  <!-- buttons -->
-  <div class="buttons borderless">
-    <button type="button" class="btn" data-toggle="modal" data-target=".bd-about-modal-lg">ABOUT ME</button> |
-    <button type="button" class="btn" data-toggle="modal" data-target=".bd-projects-modal-lg">PROJECTS</button> |
-    <button type="button" class="btn" data-toggle="modal" data-target=".bd-contact-modal-lg">CONTACT</button>
-  </div>
-
-  <div class="application-main d-flex flex-auto flex-column" data-commit-hovercards-enabled="">
-    <main>
-      <div class="container-lg mt-5 px-3">
-        <!-- '"` -->
-        <!-- </textarea></xmp> -->
-        <form role="search" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden"
-            value="✓">
-          <label for="not-found-search" class="d-block text-normal text-gray mb-1 f4">Search Menu:</label>
-          <div class="d-flex flex-items-center">
-            <input type="text" name="q" id="not-found-search" class="flex-auto input-lg form-control mr-2">
-            <button class="btn" type="submit">Search</button>
-          </div>
-        </form>
-        <div class="mt-5 text-gray-light text-center">
-          <a href="https://github.com/contact" class="link-gray">Contact Support</a> —
-          <a href="https://githubstatus.com" class="link-gray">GitHub Status</a> —
-          <a href="https://twitter.com/githubstatus" class="link-gray">@githubstatus</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Projects(Dropdown)
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://github.com/hessj1994">View All My C#/Html-CSS
+                            Projects</a>
+                        <!-- <a class="dropdown-item" href="#">View My CS#arp Projects</a>  Post github(.io?) Links -->
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here, games</a> -->
+                    </div>
+                </li>
+            </ul>
         </div>
-      </div>
+    </nav>
 
-    </main>
+    <div class="container text-vertical-center name">
+        <h1 id="title" style="font-size: 500%; letter-spacing: -2px;">Justin Hess</h1>
+        <h3 id="title" style="font-size: 200%;">SOFTWARE DEVELOPER QUESTION MARK</h3>
+    </div>
+    <!-- buttons -->
+    <div class="buttons borderless">
+        <button type="button" class="btn" data-toggle="modal" data-target=".bd-about-modal-lg">ABOUT ME</button>
+        <!-- send to other point on page, dont try and make two -->
 
-  </div>
+        <button type="button" class="btn" data-toggle="modal" data-target=".bd-projects-modal-lg">PROJECTS</button> |
+
+        <button type="button" class="btn" data-toggle="modal" data-target=".bd-contact-modal-lg">CONTACT</button>
+    </div>
 
 
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+    <ul class="list-unstyled">
+        <li class="media"><!-- switch to ID for each section?-->
+            <img src="facepicture" class="mr-3" alt="..." href="assets/..">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">About Me</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+        </li>
+        <li class="media my-4">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+        </li>
+        <li class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+        </li>
+    </ul>
+
+    <!-- <div class="contentWrapper">
+        <h2>About Me</h2>
+        <p>
+            FILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLER.FILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLER
+        </p>
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="contentWrapper">
+        <h2>About Me</h2>
+        <p>
+            FILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLER.FILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLER
+        </p>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="contentWrapper">
+        <h2>About Me</h2>
+        <p>
+            FILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLER.FILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLERFILLERFILLERFIlLLER
+        </p>
+    </div> -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+
+    <div class="application-main d-flex flex-auto flex-column" data-commit-hovercards-enabled="">
+        <main>
+            <div class="container-lg mt-5 px-3">
+                <form role="search" action="/search" accept-charset="UTF-8" method="get"><input name="utf8"
+                        type="hidden" value="✓">
+                    <label for="not-found-search" class="d-block text-normal text-gray mb-1 f4">Search Menu:</label>
+                    <div class="d-flex flex-items-center">
+                        <input type="text" name="q" id="not-found-search" class="flex-auto input-lg form-control mr-2">
+                        <button class="btn" type="submit">Search</button>
+                    </div>
+                </form>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <div class="mt-5 text-gray-light text-center">
+                    <a href="https://github.com/contact" class="link-gray">Contact Support</a> —
+                    <a href="https://githubstatus.com" class="link-gray">GitHub Status</a> —
+                    <a href="https://twitter.com/githubstatus" class="link-gray">@githubstatus</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
